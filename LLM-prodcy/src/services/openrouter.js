@@ -144,9 +144,6 @@ Rules:
 `;
 
   try {
-
-    console.log(import.meta.env.VITE_OPENROUTER_API_KEY);
-
     const response = await axios.post(
 
       "https://openrouter.ai/api/v1/chat/completions",
